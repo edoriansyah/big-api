@@ -14,6 +14,7 @@ class DatabaseConnector {
         $pass = getenv('DB_PASSWORD');
 
         try {
+            // db using PostgreSQL 
             $this->dbConnection = new \PDO(
                 "pgsql:host=$host;port=$port;dbname=$db",
                 $user,

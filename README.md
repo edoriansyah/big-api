@@ -1,3 +1,3 @@
-# BIG API
+# Simple REST API
 
-Create simple API using PHP Native
+Create simple REST API using PHP Native
